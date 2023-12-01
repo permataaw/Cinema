@@ -1,0 +1,1448 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.nav a { 
+    color: whitesmoke;
+    text-decoration: solid;
+  }
+
+  header.Navbar {
+    background-color: rgba(0, 0, 0, 0.0);
+    position: absolute;
+    top: 0;
+    width: 90%;
+    left: 5%;
+    font-family: "Open Sans", sans-serif;
+    z-index: 999;
+  }
+  
+  .navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px;
+    border-bottom: thin solid white;
+    font-weight: 10;
+  }
+  
+  .navbar-container .logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    margin: 0;
+    padding: 5px 5px;
+  }
+
+  .logo img{
+    width: 80px;
+    height: auto;
+  }
+
+  .logo img:hover {
+    background-color: rgb(72, 107, 131);
+    color: #ffffff;
+    transition: background-color 0.3s ease;
+    border-radius: 50%;
+  }
+  
+  .nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav-list {
+    margin-right: 10px;
+  }
+  
+  .nav-list:last-child {
+    margin-right: 0;
+  }
+  
+  .nav-list a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    font-size: large;
+  }
+
+  .nav-menu a{
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .nav-menu li a:hover{
+    background-color: rgb(15, 141, 224);
+    color: #ffffff;
+    transition: background-color 0.3s ease;
+    font-weight: 400;
+  }
+
+  
+  
+
+
+
+
+  .mobile{
+    display: none;
+  }
+
+.container-text {
+  margin-top: 5em;
+  margin-bottom: 5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.container-text .text-atas {
+  font-family: 'Abril Fatface';
+  font-style: normal;
+  font-weight: 400;
+  word-spacing: 10px;
+}
+
+
+.mobile{
+  display: none;
+}
+
+.container-text {
+margin-top: 5em;
+margin-bottom: 5em;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #fff;
+}
+
+.container-text .text-atas {
+font-family: 'Abril Fatface';
+font-style: normal;
+font-weight: 400;
+word-spacing: 10px;
+}
+
+
+.judul {
+position: relative;
+display: inline-block;
+overflow: hidden;
+}
+
+.judul .gambar {
+width: 100%;
+height: auto;
+filter: brightness(0.3);
+}
+
+.judul .title-overlay {
+position: absolute;
+left: 744px;
+top: 358px;
+transform: translate(-50%, -50%);
+color: #fff;
+padding: 10px;
+font-size: 24px;
+font-weight: bold;
+text-align: center;
+z-index: 2;
+width: 872px;
+height: 202px;
+
+font-family: 'Abril Fatface';
+font-style: normal;
+font-weight: 400;
+font-size: 450px;
+line-height: 173px;
+}
+
+.judul .title-overlay h1 {
+
+font-family: 'Abril Fatface';
+font-style: normal;
+font-weight: 400;
+font-size: 150px;
+line-height: 173px;
+}
+
+.judul .moto-judul{
+position: absolute;
+width: 508px;
+height: 56px;
+left: 496px;
+top: 520px;
+}
+
+
+.judul .moto-judul h2{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 37px;
+line-height: 56px;
+color: #FFFDFD;
+}
+
+.judul .ajakan-judul{
+position: absolute;
+width: 466px;
+height: 96px;
+left: 74px;
+top: 820px;
+border-bottom: 1px solid #ffffff;
+}
+
+.judul .ajakan-judul h3{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 48px;
+
+color: #FFFDFD;
+}
+
+.container-first {
+  color: #fff;
+  margin-top: 8em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  color: #fff;
+  margin-top: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container2 {
+  color: #fff;
+  margin-top: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-first h1,
+.container h1 {
+  font-size: 50px;
+}
+
+.container2 h1 {
+  font-size: 50px;
+}
+
+.container2 .Tutorial2 {
+  background: linear-gradient(to left, #376cbb, #000);
+  display: flex;
+}
+
+.container-first .Tutorial,
+.container .Tutorial {
+  background: linear-gradient(to right, #376cbb, #000);
+  display: flex;
+}
+
+.container2 .Tutorial2 .image-holder2 {
+  width: 521px;
+  height: 294px;
+  padding: 0px;
+}
+
+.container-first .Tutorial .image-holder,
+.container .Tutorial .image-holder {
+  width: 521px;
+  height: 294px;
+  padding: 0px;
+}
+
+.container-first .Tutorial .image-holder img,
+.container2 .Tutorial2 .image-holder2 img,
+.container .Tutorial .image-holder img {
+  object-fit: cover;
+  width: 521px;
+  height: 294px;
+  padding: 0px;
+}
+
+.container .Tutorial .image-holder .safety-img {
+  object-position: 50% 63%;
+  transition: transform 0.3s ease;
+}
+
+
+/* HOVER */
+.container .Tutorial:hover .image-holder .safety-img {
+  content: url("cinematoon.jpg");
+  transform: scale(1);
+}
+.container .Tutorial:hover {
+  color: rgb(95, 172, 216);
+}
+.container2 .Tutorial2:hover {
+  color: rgb(95, 172, 216);
+}
+.container-first .Tutorial:hover {
+  color: rgb(95, 172, 216);
+}
+
+
+.container-first .Tutorial .image-holder img {
+  transition: transform 0.3s ease;
+}
+.container-first .Tutorial:hover .image-holder img {
+  content: url("watching.jpg");
+  transform: scale(1);
+}
+
+.container2 .Tutorial2:hover .image-holder2 .lokasi {
+  content: url("cinemahalls2.jpg");
+  transform: scale(1);
+}
+
+.container2 .Tutorial2:hover .image-holder2 .lokasi {
+  transition: transform 0.3s ease;
+}
+
+.container2 .Tutorial2:hover .image-holder2 .katalog {
+  content: url("subs.png");
+  transform: scale(1);
+}
+
+.container2 .Tutorial2:hover .image-holder2 .katalog {
+  transition: transform 0.3s ease;
+}
+
+
+
+
+
+/* RESPONSIV TABLET */
+
+@media (max-width: 900px){
+  .Navbar{
+    width: 100%;
+  }
+
+  .logo img{
+    width: 60px;
+    height: auto;
+  }
+
+  .nav-list a {
+    font-size: medium;
+  }
+  
+  .judul .title-overlay {
+    left: 384px;
+    top: 190px;
+    padding: 10px;
+    font-size: 24px;
+    z-index: 2;
+    width: 872px;
+    height: 202px;
+    font-weight: 400;
+    font-size: 450px;
+    line-height: 173px;
+  }
+  
+  .judul .title-overlay h1 {
+    font-weight: 300;
+    font-size: 80px;
+    line-height: 173px;
+  }
+  
+  .judul .moto-judul{
+    width: 508px;
+    height: 56px;
+    left: 206px;
+    top: 240px;
+  }
+  
+  
+  .judul .moto-judul h2{
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 56px;
+  }
+  
+  .judul .ajakan-judul{
+    width: 266px;
+    height: 66px;
+    left: 74px;
+    top: 400px;
+  }
+  
+  .judul .ajakan-judul h3{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+  }
+}
+
+/* RESPONSIV MOBILE */
+
+@media (max-width: 550px){
+  .Navbar{
+    width: 100%;
+  }
+
+  .logo img{
+    width: 30px;
+    height: auto;
+  }
+
+  .nav-list a {
+    font-size: x-small;
+  }
+
+  .judul{
+    margin-bottom: 0px;
+  }
+  
+  .judul .title-overlay {
+    left: 180px;
+    top: 90px;
+    padding: 10px;
+    font-size: 24px;
+    z-index: 2;
+    width: 872px;
+    height: 202px;
+    font-weight: 400;
+    font-size: 450px;
+    line-height: 173px;
+  }
+  
+  .judul .title-overlay h1 {
+    font-weight: 200;
+    font-size: 35px;
+    line-height: 173px;
+  }
+  
+  .judul .moto-judul{
+    width: 180px;
+    height: 56px;
+    left: 120px;
+    top: 100px;
+  }
+  
+  
+  .judul .moto-judul h2{
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 56px;
+  }
+  
+  .judul .ajakan-judul{
+    width: 96px;
+    height: 26px;
+    left: 44px;
+    top: 200px;
+  }
+  
+  .judul .ajakan-judul h3{
+    font-weight: 300;
+    font-size: 5px;
+    line-height: 8px;
+  }
+}
+
+
+
+
+
+
+/* HOVER */
+
+.container2 .Tutorial2 .text-holder2 {
+  display: flex;
+  justify-content: flex-end;
+  font-family: 'Abril Fatface';
+  width: 40em;
+  padding: 2em;
+  align-items: center;
+}
+
+.container2 .Tutorial2 .text-holder2 .h1-holder {
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.container2 .Tutorial2 .text-holder2 .h1-holder h1 {
+  font-size: 74px;
+}
+
+.container2 .Tutorial2 .text-holder2 .paragraph-holder {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.container-first .Tutorial .text-holder,
+.container .Tutorial .text-holder {
+  display: flex;
+  font-family: 'Abril Fatface';
+  width: 40em;
+  padding: 2em;
+  align-items: center;
+
+}
+
+.container-first .Tutorial .text-holder h1,
+.container .Tutorial .text-holder h1 {
+  font-size: 74px;
+}
+
+
+/* BIG-TITLE_PART */
+.big-title {
+  margin-top: 5em;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5em;
+
+}
+
+.big-title .title {
+  font-family: 'Abril Fatface';
+  color: #fff;
+  height: 28em;
+  width: 50em;
+  display: flex;
+  padding: 2em;
+  background-color: #0000;
+  border: 10px solid #A3C556;
+  border-left: none;
+  flex-direction: column;
+  background: black;
+  /* Set the background color inside the border */
+  border: 10px solid;
+  border-image-source: linear-gradient(231.31deg, rgb(95, 172, 216) 20.71%, rgba(163, 197, 86, 0) 71.9%);
+  border-image-slice: 1;
+
+}
+
+.big-title .title .title-paragraph {
+  font-family: 'Abhaya Libre';
+  margin-top: 2em;
+  font-size: 26px;
+}
+
+.big-title .title h1 {
+  font-size: 72px;
+}
+
+.big-title .jalan-jejak {
+  width: 350px;
+  height: 553px;
+}
+
+.big-title .jalan-jejak img {
+  object-fit: cover;
+  width: 450px;
+  height: 533px;
+}
+
+.image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+}
+
+.image-container .image {
+  margin: 0px;
+  height: 720px;
+  width: 100%;
+  background-color: #BABABA;
+  margin-bottom: 5em;
+}
+
+.image-container .image img {
+  width: 100%;
+  height: 720px;
+  object-fit: cover;
+  object-position: 0% 40%;
+}
+
+@media(max-width: 900px){
+  .big-title .title {
+    font-family: 'Abril Fatface';
+    color: #fff;
+    height: 18em;
+    width: 30em;
+    padding: 1em;
+  }
+  
+  .big-title .title .title-paragraph {
+    font-family: 'Abhaya Libre';
+    margin-top: 2em;
+    font-size: 16px;
+  }
+  
+  .big-title .title h1 {
+    font-size: 52px;
+  }
+  
+  .big-title .jalan-jejak {
+    width: 250px;
+    height: 553px;
+  }
+  
+  .big-title .jalan-jejak img {
+    object-fit: cover;
+    width: 4500px;
+    height: 383px;
+    margin-top: 80px;
+  }
+  
+  .image-container .image {
+    height: 520px;
+    width: 100%;
+    background-color: #BABABA;
+    margin-bottom: 5em;
+  }
+  
+  .image-container .image img {
+    width: 100%;
+    height: 720px;
+    object-fit: cover;
+    object-position: 0% 40%;
+  }
+}
+
+
+@media(max-width: 550px){
+  .big-title{
+    height: 12em;
+  }
+
+  .big-title .title {
+    font-family: 'Abril Fatface';
+    color: #fff;
+    height: 9em;
+    width: 20em;
+    padding: 1em;
+    border: 5px solid;
+    border-image-source: linear-gradient(231.31deg, rgb(95, 172, 216) 20.71%, rgba(163, 197, 86, 0) 71.9%);
+    border-image-slice: 1;
+    margin-top: 5px;
+    margin-right: 15px;
+  }
+  
+  .big-title .title .title-paragraph {
+    font-family: 'Abhaya Libre';
+    margin-top: 1em;
+    font-size: 8px;
+  }
+  
+  .big-title .title h1 {
+    font-size: 18px;
+  }
+  
+  .big-title .jalan-jejak {
+    width: 150px;
+    height: 553px;
+  }
+  
+  .big-title .jalan-jejak img {
+    object-fit: cover;
+    width: 600px;
+    height: 183px;
+    margin-top: 180px;
+  }
+  
+  .image-container .image {
+    height: 520px;
+    width: 100%;
+    background-color: #BABABA;
+    margin-bottom: 5em;
+    margin-left: 15px;
+  }
+  
+  .image-container .image img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    object-position: 0% 40%;
+  }
+
+}
+
+@media (max-width: 900px){
+
+  .mobile{
+    display: none;
+  }
+
+  .container .Tutorial .image-holder .safety-img {
+    object-position: 50% 50%;
+    transition: transform 0.3s ease;
+  }
+  
+  .container-first {
+    color: #fff;
+    margin-top: 8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    color: #fff;
+    margin-top: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container2 {
+    color: #fff;
+    margin-top: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container-first h1,
+  .container h1 {
+    font-size: 30px;
+  }
+  
+  .container2 h1 {
+    font-size: 30px;
+  }
+  
+  .container2 .Tutorial2 {
+    background: linear-gradient(to left, #376cbb, #000);
+    display: flex;
+    max-width: 100%;
+  }
+  
+  .container-first .Tutorial,
+  .container .Tutorial {
+    background: linear-gradient(to right, #376cbb, #000);
+    display: flex;
+    max-width: 100%;
+  }
+  
+  .container2 .Tutorial2 .image-holder2 {
+    width: 271px;
+    height: 144px;
+    padding: 0px;
+  }
+  
+  .container-first .Tutorial .image-holder,
+  .container .Tutorial .image-holder {
+    width: 351px;
+    height: 145px;
+    padding: 0px;
+  }
+  
+  .container-first .Tutorial .image-holder img,
+  .container2 .Tutorial2 .image-holder2 img,
+  .container .Tutorial .image-holder img {
+    object-fit: cover;
+    width: 321px;
+    height: 145px;
+    padding: 0px;
+  }
+  
+  .container .Tutorial .image-holder .safety-img {
+    object-position: 40% 40%;
+    transition: transform 0.3s ease;
+  }
+
+
+  .container2 .Tutorial2 .text-holder2 {
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Abril Fatface';
+    width: 10em;
+    padding: 2em;
+    align-items: center;
+  }
+
+  .container-first .Tutorial .text-holder,
+  .container .Tutorial .text-holder {
+    display: flex;
+    font-family: 'Abril Fatface';
+    width: 100%;
+    padding: 2em;
+    align-items: center;
+  
+  }
+  
+  .container2 .Tutorial2 .text-holder2 .h1-holder {
+    display: flex;
+    justify-content: flex-end;
+  
+  }
+  
+  .container2 .Tutorial2 .text-holder2 .h1-holder h1 {
+    font-size: 54px;
+  }
+  
+  .container2 .Tutorial2 .text-holder2 .paragraph-holder {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  
+  
+  .container-first .Tutorial .text-holder h1,
+  .container .Tutorial .text-holder h1 {
+    font-size: 54px;
+  }
+}
+
+
+@media (max-width: 550px){
+  .container-first{
+    display: none;
+  }
+
+  .container{
+    display: none;
+  }
+
+  .container2{
+    display: none;
+  }
+
+  .mobile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  .mobile a{
+    text-decoration: none;
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+    transition: background-color 2s;
+    background: linear-gradient(236.46deg, rgb(95, 172, 216) 20.71%, rgba(163, 197, 86, 0) 90.4%);
+    border-radius: 25px;
+    height: 60px;
+    width: 250px;
+  }
+
+  .kotaks{
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mobile a:hover, .mobile a:focus{
+    background: rgb(113, 89, 182);
+  }
+
+  .mobile-text{
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Abril Fatface';
+    justify-content: center;
+    padding-top: 20px;
+  }
+
+  /* .mobile{
+    display: none;
+  }
+
+  .container .Tutorial .image-holder .safety-img {
+    object-position: 50% 50%;
+    transition: transform 0.3s ease;
+  }
+  
+  .container-first {
+    color: #fff;
+    margin-top: 8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    color: #fff;
+    margin-top: 0.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container2 {
+    color: #fff;
+    margin-top: 0.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container-first h1,
+  .container h1 {
+    font-size: 30px;
+  }
+  
+  .container2 h1 {
+    font-size: 30px;
+  }
+  
+  .container2 .Tutorial2 {
+    background: linear-gradient(to left, #5c9e70, #000);
+    display: flex;
+  }
+  
+  .container-first .Tutorial,
+  .container .Tutorial {
+    background: linear-gradient(to right, #5c9e70, #000);
+    display: flex;
+    max-width: 100%;
+  }
+  
+  .container2 .Tutorial2 .image-holder2 {
+    width: 171px;
+    height: 99px;
+    padding: 0px;
+  }
+  
+  .container-first .Tutorial .image-holder,
+  .container .Tutorial .image-holder {
+    width: 221px;
+    height: 50px;
+    padding: 0px;
+  }
+  
+  .container-first .Tutorial .image-holder img,
+  .container2 .Tutorial2 .image-holder2 img,
+  .container .Tutorial .image-holder img {
+    object-fit: cover;
+    width: 321px;
+    height: 100px;
+    padding: 0px;
+  }
+  
+  .container .Tutorial .image-holder .safety-img {
+    object-position: 40% 40%;
+    transition: transform 0.3s ease;
+  }
+
+
+  .container2 .Tutorial2 .text-holder2 {
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Abril Fatface';
+    width: 10em;
+    padding: 2em;
+    align-items: center;
+  }
+
+  .container-first .Tutorial .text-holder,
+  .container .Tutorial .text-holder {
+    display: flex;
+    font-family: 'Abril Fatface';
+    width: 100%;
+    padding: 2em;
+    align-items: center;
+  
+  }
+  
+  .container2 .Tutorial2 .text-holder2 .h1-holder {
+    display: flex;
+    justify-content: flex-end;
+  
+  }
+  
+  .container2 .Tutorial2 .text-holder2 .h1-holder h1 {
+    font-size: 24px;
+  }
+  
+  .container2 .Tutorial2 .text-holder2 .paragraph-holder {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  
+  
+  .container-first .Tutorial .text-holder h1,
+  .container .Tutorial .text-holder h1 {
+    font-size: 24px;
+  } */
+
+}
+
+
+/* KENAPA-PART */
+
+.kenapa-container {
+  color: #fff;
+  margin-top: 7em;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.kenapa {
+  font-family: 'Abril Fatface';
+    font-style: normal;
+  margin-bottom: 5em;
+  display: inline-block;
+}
+
+.kenapa h1 {
+  font-size: 74px;
+  display: inline;
+}
+
+.kenapa .ijo {
+  padding-left: .2em;
+  color: rgb(95, 172, 216);
+}
+
+/* KARENA-PART */
+
+.karena-container {
+  display: flex;
+}
+
+.karena-container .karena-img .karena-img-add {
+  height: 30em;
+  width: 20em;
+  border: 10px solid;
+  border-image-source: linear-gradient(231.31deg, rgb(95, 172, 216) 23%, rgba(163, 197, 86, 0) 71.9%);
+  border-image-slice: 1;
+  border-left: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.karena-container .karena-img .karena-img-add img {
+  margin-bottom: 5em;
+  margin-left: 8em;
+  padding-bottom: 2em;
+}
+
+.karena-container .karena-img {
+  display: flex;
+  height: 30em;
+}
+
+.karena-container .karena-img .karena-img-add .traveller {
+  position: absolute;
+  width: 30em;
+  height: 30em;
+
+}
+
+.karena-container .karena-list-container {
+  margin-left: 22em;
+  padding: 2em;
+  font-family: 'Abhaya Libre';
+  color: #fff;
+  height: 25em;
+  width: 45em;
+}
+
+.karena-container .karena-list-container h1 {
+  color: rgb(95, 172, 216);
+}
+
+.karena-container .karena-list-container p {
+  font-size: 24px;
+}
+
+
+@media (max-width: 900px){
+  .kenapa-container {
+    color: #fff;
+    margin-top: 5em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .kenapa {
+    font-family: 'Abril Fatface';
+    margin-bottom: 5em;
+    display: inline-block;
+  }
+  
+  .kenapa h1 {
+    font-size: 54px;
+    display: inline;
+  }
+  
+  .kenapa .ijo {
+    padding-left: .2em;
+    color: rgb(95, 172, 216);
+  }
+
+
+  .karena-container .karena-img .karena-img-add {
+    height: 15em;
+    width: 10em;
+    border: 8px solid;
+    border-image-source: linear-gradient(231.31deg, rgb(95, 172, 216) 20.71%, rgba(163, 197, 86, 0) 71.9%);
+    border-image-slice: 1;
+    border-left: none;
+    display: flex;
+    flex-direction: column;
+  }
+  
+
+  
+  .karena-container .karena-img .karena-img-add img {
+    margin-bottom: 2em;
+    margin-left: 4em;
+    padding-bottom: 2em;
+  }
+  
+
+
+  .karena-container .karena-img {
+    display: flex;
+    height: 15em;
+  }
+  
+
+
+  .karena-container .karena-img .karena-img-add .traveller {
+    position: absolute;
+    width: 15em;
+    height: 15em;
+  
+  }
+  
+
+
+  .karena-container .karena-list-container {
+    margin-left: 12em;
+    padding: 1em;
+    font-family: 'Abhaya Libre';
+    color: #fff;
+    height: 15em;
+    width: 45em;
+  }
+  
+
+
+  .karena-container .karena-list-container h1 {
+    color: rgb(95, 172, 216);
+  }
+  
+  .karena-container .karena-list-container p {
+    font-size: 15px;
+  }
+}
+
+
+
+
+@media (max-width: 550px){
+  .kenapa-container {
+    color: #fff;
+    margin-top: 5em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+
+  .kenapa {
+    font-family: 'Abril Fatface';
+    margin-bottom: 5em;
+    display: inline-block;
+  }
+  
+  .kenapa h1 {
+    font-size: 24px;
+    display: inline;
+  }
+  
+
+
+
+  .kenapa .ijo {
+    padding-left: .2em;
+    color: rgb(95, 172, 216);
+  }
+
+
+
+
+  .karena-container .karena-img .karena-img-add {
+    height: 11em;
+    width: 7em;
+    border: 8px solid;
+    border-image-source: linear-gradient(231.31deg, rgb(95, 172, 216) 20.71%, rgba(163, 197, 86, 0) 71.9%);
+    border-image-slice: 1;
+    border-left: none;
+    display: flex;
+    flex-direction: column;
+  }
+  
+
+
+
+  .karena-container .karena-img .karena-img-add img {
+    margin-bottom: 2em;
+    margin-left: 2.5em;
+    padding-bottom: 2em;
+  }
+  
+  .karena-container .karena-img {
+    display: flex;
+    height: 10em;
+  }
+  
+  .karena-container .karena-img .karena-img-add .traveller {
+    position: absolute;
+    width: 10em;
+    height: 10em;
+  }
+  
+
+
+
+  .karena-container .karena-list-container {
+    margin-left: 7em;
+    padding: 1em;
+    font-family: 'Abhaya Libre';
+    color: #fff;
+    height: 5em;
+    width: 45em;
+  }
+  
+  .karena-container .karena-list-container h1 {
+    color: rgb(95, 172, 216);
+    font-size: 8px;
+  }
+  
+  .karena-container .karena-list-container p {
+    font-size: 8px;
+  }
+}
+
+/* FOOTER-PART */
+
+
+
+
+footer {
+  background-color: rgb(8, 8, 41);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  margin-top: 10em;
+}
+
+.footer-column1 {
+  flex-basis: 33.33%;
+}
+
+
+
+
+
+.footer-column2 {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.footer-column2 .contact-list h4 {
+  font-family: 'Poppins';
+  font-size: 35px;
+}
+
+
+.footer-column3 {
+  flex-basis: 33.33%;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.footer-column3 .social-buttons .buttons {
+  display: flex;
+}
+
+
+
+
+
+
+.footer-column3 .social-buttons h4 {
+  font-family: 'Poppins';
+  font-size: 35px;
+}
+
+
+.footer-column1 .logo {
+  margin-left: 5em;
+  width: 25em;
+}
+
+.contact-list {
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+}
+
+.contact-list li {
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
+.social-buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+
+
+
+.social-button {
+  margin-right: 10px;
+}
+
+.social-button img {
+  margin-left: 20px;
+  width: 30px;
+  height: 30px;
+}
+
+.social-button img:hover{
+transform: scale(1.5);
+}
+
+
+@media (max-width: 900px){
+
+  footer{
+    top: 1200px;
+    width: 100%;
+  }
+
+  .footer-column1 .logo{
+    margin-left: 2em;
+    width: 10em;
+  }
+
+  .contact-list{
+    padding: 2px;
+  }
+
+  .social-button img{
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+  }
+
+  .footer-column3 .social-buttons h4 {
+    font-size: 25px;
+   }
+
+   .footer-column2 .contact-list h4{
+    font-family: 'Poppins';
+    font-size: 25px;
+  }
+
+  .contact-list li {
+    margin-bottom: 2px;
+  }
+
+  .contact-list li {
+    margin-bottom: 5px;
+  }
+}
+
+@media (max-width: 550px){
+
+  footer{
+    display: flex;
+    align-items: start;
+    top: 800px;
+  }
+  .footer-column1 .logo{
+    display: none;
+  }
+
+  .social-button img{
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+  }
+
+  .footer-column3 .social-buttons h4 {
+    font-size: 15px;
+   }
+
+   .footer-column2 .contact-list h4{
+    font-family: 'Poppins';
+    font-size: 15px;
+  }
+
+  .footer-column2 .contact-list li{
+    font-size: 7.5px;
+    padding-bottom: 2px;
+  }
+
+  .social-button {
+    margin-right: 10px;
+  }
+
+  .footer-column2 {
+    order: -1;
+    flex-basis: 100%;
+  }
+
+  .footer-column3{
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center; 
+    order: 0;
+  }
+  
+}
+
+
